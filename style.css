@@ -1,0 +1,75 @@
+:root{
+    --bg-color: rgb(4, 4, 24);
+    --color:linear-gradient(217deg, rgba(189, 36, 36, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(336deg, rgba(32, 32, 116, 0.8), rgba(0,0,255,0) 70.71%);
+    --border: linear-gradient(#fd0303, #f36405);
+}
+
+
+*{
+    font-family:'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+.wrapper {
+    width: 750px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background: var(--color);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+    border: 1px solid red;
+}
+
+#clock{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: red;
+    position: fixed;
+    margin: 60px 70px;
+}
+
+#current-date {
+    font-size: 30px;
+    color: red;
+}
+
+select {
+    background: var(--bg-color);
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+@media (min-width: 370px) and (max-width: 480px) {
+    #clock {
+        font-size: 26px;
+        padding: 20px;
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 270px) and (max-width: 380px) {
+    #clock {
+        font-size: 21px;
+        padding: 20px;
+        margin: 70px 30px;
+    }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+    #clock {
+        font-size: 60px;
+    }
+}

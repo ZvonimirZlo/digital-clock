@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="getTime()">
+    <div class="wrapper">
+        <div class="select-container">
+            <select name="time-options" id="time-options">
+                <option value="dd-mm-yyyy">Day, Month, Year</option>
+                <option value="yyyy-mm-dd">Year, Month, Day</option>
+                <option value="mm-dd-yyyy">Month, Day, Year</option>
+            </select>
+        </div>
+        
+        <span id="current-date"></span>
+        <span id="clock">Clock</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
