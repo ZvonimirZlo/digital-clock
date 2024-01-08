@@ -1,13 +1,13 @@
-:root{
+:root {
     --bg-color: rgb(4, 4, 24);
-    --color:linear-gradient(217deg, rgba(189, 36, 36, 0.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(336deg, rgba(32, 32, 116, 0.8), rgba(0,0,255,0) 70.71%);
-    --border: linear-gradient(#fd0303, #f36405);
+    --color: linear-gradient(217deg, rgba(189, 36, 36, 0.8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(32, 32, 116, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    /* --border: linear-gradient(#fd0303, #f36405); */
 }
 
 
-*{
-    font-family:'Orbitron', sans-serif;
+* {
+    font-family: 'Orbitron', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,7 @@ body {
     justify-content: center;
     background-color: var(--bg-color);
 }
+
 .wrapper {
     width: 750px;
     height: 200px;
@@ -31,7 +32,7 @@ body {
     border: 1px solid red;
 }
 
-#clock{
+#clock {
     text-align: center;
     font-size: 70px;
     font-weight: 600;
@@ -68,6 +69,7 @@ select {
         margin: 70px 30px;
     }
 }
+
 @media (min-width: 481px) and (max-width: 780px) {
     #clock {
         font-size: 60px;
