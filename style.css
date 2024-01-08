@@ -30,6 +30,7 @@ body {
     background: var(--color);
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
     border: 1px solid red;
+    box-shadow: 1px 1px 15px 1px rgb(255, 51, 0);
 }
 
 #clock {
@@ -55,16 +56,16 @@ select {
 
 @media (min-width: 370px) and (max-width: 480px) {
     #clock {
-        font-size: 26px;
-        padding: 20px;
+        font-size: 25px;
+        padding: 11px;
         margin-top: 60px;
         margin-left: 15px;
     }
 }
 
-@media (min-width: 270px) and (max-width: 380px) {
+@media (min-width: 270px) and (max-width: 369px) {
     #clock {
-        font-size: 21px;
+        font-size: 20px;
         padding: 20px;
         margin: 70px 30px;
     }
